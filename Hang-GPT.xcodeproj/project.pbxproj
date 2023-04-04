@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A982D0829DC2A2E00D1BA01 /* Hang_GPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A982D0729DC2A2E00D1BA01 /* Hang_GPTApp.swift */; };
+		1A982D0A29DC2A2E00D1BA01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A982D0929DC2A2E00D1BA01 /* ContentView.swift */; };
+		1A982D0C29DC2A3000D1BA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A982D0B29DC2A3000D1BA01 /* Assets.xcassets */; };
+		1A982D0F29DC2A3000D1BA01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A982D0E29DC2A3000D1BA01 /* Preview Assets.xcassets */; };
+		1A982D1129DC2A3000D1BA01 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A982D1029DC2A3000D1BA01 /* Persistence.swift */; };
+		1A982D1429DC2A3000D1BA01 /* Hang_GPT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A982D1229DC2A3000D1BA01 /* Hang_GPT.xcdatamodeld */; };
+		1A982D1E29DC2A3100D1BA01 /* Hang_GPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A982D1D29DC2A3100D1BA01 /* Hang_GPTTests.swift */; };
+		1A982D2829DC2A3100D1BA01 /* Hang_GPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A982D2729DC2A3100D1BA01 /* Hang_GPTUITests.swift */; };
+		1A982D2A29DC2A3100D1BA01 /* Hang_GPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A982D2929DC2A3100D1BA01 /* Hang_GPTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A982D1A29DC2A3100D1BA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A982CFC29DC2A2D00D1BA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A982D0329DC2A2E00D1BA01;
+			remoteInfo = "Hang-GPT";
+		};
+		1A982D2429DC2A3100D1BA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A982CFC29DC2A2D00D1BA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A982D0329DC2A2E00D1BA01;
+			remoteInfo = "Hang-GPT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A982D0429DC2A2E00D1BA01 /* Hang-GPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hang-GPT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A982D0729DC2A2E00D1BA01 /* Hang_GPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hang_GPTApp.swift; sourceTree = "<group>"; };
+		1A982D0929DC2A2E00D1BA01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A982D0B29DC2A3000D1BA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A982D0E29DC2A3000D1BA01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A982D1029DC2A3000D1BA01 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1A982D1329DC2A3000D1BA01 /* Hang_GPT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hang_GPT.xcdatamodel; sourceTree = "<group>"; };
+		1A982D1929DC2A3100D1BA01 /* Hang-GPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hang-GPTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A982D1D29DC2A3100D1BA01 /* Hang_GPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hang_GPTTests.swift; sourceTree = "<group>"; };
+		1A982D2329DC2A3100D1BA01 /* Hang-GPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hang-GPTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A982D2729DC2A3100D1BA01 /* Hang_GPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hang_GPTUITests.swift; sourceTree = "<group>"; };
+		1A982D2929DC2A3100D1BA01 /* Hang_GPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hang_GPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A982D0129DC2A2E00D1BA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A982D1629DC2A3100D1BA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A982D2029DC2A3100D1BA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A982CFB29DC2A2D00D1BA01 = {
+			isa = PBXGroup;
+			children = (
+				1A982D0629DC2A2E00D1BA01 /* Hang-GPT */,
+				1A982D1C29DC2A3100D1BA01 /* Hang-GPTTests */,
+				1A982D2629DC2A3100D1BA01 /* Hang-GPTUITests */,
+				1A982D0529DC2A2E00D1BA01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A982D0529DC2A2E00D1BA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A982D0429DC2A2E00D1BA01 /* Hang-GPT.app */,
+				1A982D1929DC2A3100D1BA01 /* Hang-GPTTests.xctest */,
+				1A982D2329DC2A3100D1BA01 /* Hang-GPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A982D0629DC2A2E00D1BA01 /* Hang-GPT */ = {
+			isa = PBXGroup;
+			children = (
+				1A982D0729DC2A2E00D1BA01 /* Hang_GPTApp.swift */,
+				1A982D0929DC2A2E00D1BA01 /* ContentView.swift */,
+				1A982D0B29DC2A3000D1BA01 /* Assets.xcassets */,
+				1A982D1029DC2A3000D1BA01 /* Persistence.swift */,
+				1A982D1229DC2A3000D1BA01 /* Hang_GPT.xcdatamodeld */,
+				1A982D0D29DC2A3000D1BA01 /* Preview Content */,
+			);
+			path = "Hang-GPT";
+			sourceTree = "<group>";
+		};
+		1A982D0D29DC2A3000D1BA01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A982D0E29DC2A3000D1BA01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A982D1C29DC2A3100D1BA01 /* Hang-GPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A982D1D29DC2A3100D1BA01 /* Hang_GPTTests.swift */,
+			);
+			path = "Hang-GPTTests";
+			sourceTree = "<group>";
+		};
+		1A982D2629DC2A3100D1BA01 /* Hang-GPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A982D2729DC2A3100D1BA01 /* Hang_GPTUITests.swift */,
+				1A982D2929DC2A3100D1BA01 /* Hang_GPTUITestsLaunchTests.swift */,
+			);
+			path = "Hang-GPTUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A982D0329DC2A2E00D1BA01 /* Hang-GPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A982D2D29DC2A3100D1BA01 /* Build configuration list for PBXNativeTarget "Hang-GPT" */;
+			buildPhases = (
+				1A982D0029DC2A2E00D1BA01 /* Sources */,
+				1A982D0129DC2A2E00D1BA01 /* Frameworks */,
+				1A982D0229DC2A2E00D1BA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hang-GPT";
+			productName = "Hang-GPT";
+			productReference = 1A982D0429DC2A2E00D1BA01 /* Hang-GPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A982D1829DC2A3100D1BA01 /* Hang-GPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A982D3029DC2A3100D1BA01 /* Build configuration list for PBXNativeTarget "Hang-GPTTests" */;
+			buildPhases = (
+				1A982D1529DC2A3100D1BA01 /* Sources */,
+				1A982D1629DC2A3100D1BA01 /* Frameworks */,
+				1A982D1729DC2A3100D1BA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A982D1B29DC2A3100D1BA01 /* PBXTargetDependency */,
+			);
+			name = "Hang-GPTTests";
+			productName = "Hang-GPTTests";
+			productReference = 1A982D1929DC2A3100D1BA01 /* Hang-GPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A982D2229DC2A3100D1BA01 /* Hang-GPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A982D3329DC2A3100D1BA01 /* Build configuration list for PBXNativeTarget "Hang-GPTUITests" */;
+			buildPhases = (
+				1A982D1F29DC2A3100D1BA01 /* Sources */,
+				1A982D2029DC2A3100D1BA01 /* Frameworks */,
+				1A982D2129DC2A3100D1BA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A982D2529DC2A3100D1BA01 /* PBXTargetDependency */,
+			);
+			name = "Hang-GPTUITests";
+			productName = "Hang-GPTUITests";
+			productReference = 1A982D2329DC2A3100D1BA01 /* Hang-GPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A982CFC29DC2A2D00D1BA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1A982D0329DC2A2E00D1BA01 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1A982D1829DC2A3100D1BA01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1A982D0329DC2A2E00D1BA01;
+					};
+					1A982D2229DC2A3100D1BA01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1A982D0329DC2A2E00D1BA01;
+					};
+				};
+			};
+			buildConfigurationList = 1A982CFF29DC2A2D00D1BA01 /* Build configuration list for PBXProject "Hang-GPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A982CFB29DC2A2D00D1BA01;
+			productRefGroup = 1A982D0529DC2A2E00D1BA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A982D0329DC2A2E00D1BA01 /* Hang-GPT */,
+				1A982D1829DC2A3100D1BA01 /* Hang-GPTTests */,
+				1A982D2229DC2A3100D1BA01 /* Hang-GPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A982D0229DC2A2E00D1BA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A982D0F29DC2A3000D1BA01 /* Preview Assets.xcassets in Resources */,
+				1A982D0C29DC2A3000D1BA01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A982D1729DC2A3100D1BA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A982D2129DC2A3100D1BA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A982D0029DC2A2E00D1BA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A982D1129DC2A3000D1BA01 /* Persistence.swift in Sources */,
+				1A982D1429DC2A3000D1BA01 /* Hang_GPT.xcdatamodeld in Sources */,
+				1A982D0A29DC2A2E00D1BA01 /* ContentView.swift in Sources */,
+				1A982D0829DC2A2E00D1BA01 /* Hang_GPTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A982D1529DC2A3100D1BA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A982D1E29DC2A3100D1BA01 /* Hang_GPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A982D1F29DC2A3100D1BA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A982D2A29DC2A3100D1BA01 /* Hang_GPTUITestsLaunchTests.swift in Sources */,
+				1A982D2829DC2A3100D1BA01 /* Hang_GPTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A982D1B29DC2A3100D1BA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A982D0329DC2A2E00D1BA01 /* Hang-GPT */;
+			targetProxy = 1A982D1A29DC2A3100D1BA01 /* PBXContainerItemProxy */;
+		};
+		1A982D2529DC2A3100D1BA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A982D0329DC2A2E00D1BA01 /* Hang-GPT */;
+			targetProxy = 1A982D2429DC2A3100D1BA01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A982D2B29DC2A3100D1BA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A982D2C29DC2A3100D1BA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A982D2E29DC2A3100D1BA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hang-GPT/Preview Content\"";
+				DEVELOPMENT_TEAM = A64Y25YA89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkhs21.Hang-GPT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A982D2F29DC2A3100D1BA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hang-GPT/Preview Content\"";
+				DEVELOPMENT_TEAM = A64Y25YA89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkhs21.Hang-GPT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A982D3129DC2A3100D1BA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A64Y25YA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkhs21.Hang-GPTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hang-GPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hang-GPT";
+			};
+			name = Debug;
+		};
+		1A982D3229DC2A3100D1BA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A64Y25YA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkhs21.Hang-GPTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hang-GPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hang-GPT";
+			};
+			name = Release;
+		};
+		1A982D3429DC2A3100D1BA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A64Y25YA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkhs21.Hang-GPTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hang-GPT";
+			};
+			name = Debug;
+		};
+		1A982D3529DC2A3100D1BA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A64Y25YA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkhs21.Hang-GPTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hang-GPT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A982CFF29DC2A2D00D1BA01 /* Build configuration list for PBXProject "Hang-GPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A982D2B29DC2A3100D1BA01 /* Debug */,
+				1A982D2C29DC2A3100D1BA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A982D2D29DC2A3100D1BA01 /* Build configuration list for PBXNativeTarget "Hang-GPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A982D2E29DC2A3100D1BA01 /* Debug */,
+				1A982D2F29DC2A3100D1BA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A982D3029DC2A3100D1BA01 /* Build configuration list for PBXNativeTarget "Hang-GPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A982D3129DC2A3100D1BA01 /* Debug */,
+				1A982D3229DC2A3100D1BA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A982D3329DC2A3100D1BA01 /* Build configuration list for PBXNativeTarget "Hang-GPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A982D3429DC2A3100D1BA01 /* Debug */,
+				1A982D3529DC2A3100D1BA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A982D1229DC2A3000D1BA01 /* Hang_GPT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A982D1329DC2A3000D1BA01 /* Hang_GPT.xcdatamodel */,
+			);
+			currentVersion = 1A982D1329DC2A3000D1BA01 /* Hang_GPT.xcdatamodel */;
+			path = Hang_GPT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A982CFC29DC2A2D00D1BA01 /* Project object */;
+}
